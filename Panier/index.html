@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tarkhani project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../ressource/amin.png" alt=""> 
+      <form >
+       <input class="searchBar" type="text" placeholder="Type to search ..." />
+       <input class="searchButton" type="button" value="Search" />
+      </form>
+   </header>
+    <table>
+      <thead>
+        <tr>
+          <th>Products</th>
+          <th>QTY</th>
+          <th>PRICE</th>
+          <th>SUM</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <!-- Shopping cards -->
+            <div class="shopping-cards">
+              <div class="shopping-card">
+                <!-- Product image of parfum -->
+                <span class="product-image">
+                  <img
+                    src="../Panier/images/images (5).jpg"
+                    alt="parfum sovage dior /200ml"
+                  />
+                </span>
+                <!-- Product description -->
+                <p>
+                  parfum sovage dior / 200ml/</p>
+              </div>
+            </div>
+          </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">130.00</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="shopping-card">
+                    <!-- Product image of Parfum -->
+                    <span class="product-image">
+                      <img
+                        src="../Panier/images/téléchargement (2).jpg"
+                        alt="parfum/200ml"
+                      />
+                    </span>
+                    <!-- Product description -->
+                    <p>Parfum /200ml</p>
+                  </div>
+            </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">29.00</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="shopping-card">
+                    <!-- Product image of parfum -->
+                    <span class="product-image">
+                      <img
+                        src="../Panier/images/images (2).jpg"
+                        alt="parfum /200ml "
+                      />
+                    </span>
+                    <!-- Product description -->
+                    <p>Parfum/200ml</p>
+                  </div>
+            </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">65.00</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="shopping-card">
+                    <!-- Product image of car support for parfum -->
+                    <span class="product-image">
+                      <img
+                        src="../Panier/images/images 1211.jpg"
+                        alt="parfum/200ml"
+                      />
+                    </span>
+                    <!-- Product description -->
+                    <p>Parfum /200ml</p>
+                  </div>
+            </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">150.70</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+          <td colspan="3">Total</td>
+          <td id="total"></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <footer>
+        
+      <form class="identifiant">
+<label for=""> nom:</label>
+          <input  class="footerinput"type="text" placeholder="saisir votre nom"> <br>
+          prenom: <input  type="text"placeholder="saisir votre prenom"> <br>
+          adresse: <input type="text"placeholder="saisirvotre adresse"><br>
+          email: <input type="text"placeholder="saisirvotre adresse"><br>
+      </form>
+</footer
+  </body>
+</html>
